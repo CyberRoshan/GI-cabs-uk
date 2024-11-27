@@ -32,124 +32,253 @@
                 </div>
             </div>
         </div>
-        <div class="box-search-ride wow fadeInUp">
-            <div class="search-item search-date">
-                <div class="search-icon"> <span class="item-icon icon-date"> </span></div>
-                <div class="search-inputs">
-                    <label class="text-14 color-grey">Date</label>
-                    <input class="search-input datepicker" type="text" placeholder="" value="Thu, Oct 06, 2022">
+        <div class="box-search-ride main-form wow fadeInUp">
+            <!-- Travel to -->
+            <div class="box-search-item travel-from-box">
+                <div class="search-item search-date">
+                    <div class="search-icon"> <span class="item-icon icon-date"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">Date</label>
+                        <input class="search-input datepicker" type="text" placeholder="" value="Thu, Oct 06, 2022">
+                    </div>
                 </div>
-            </div>
-            <div class="search-item search-time">
-                <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
-                <div class="search-inputs">
-                    <label class="text-14 color-grey">Time</label>
-                    <input class="search-input timepicker" type="text" placeholder="" value="6 PM  :  15">
+                <div class="search-item search-time">
+                    <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">Time</label>
+                        <input class="search-input timepicker" type="text" placeholder="" value="6 PM  :  15">
+                    </div>
                 </div>
-            </div>
-            <div class="search-item search-from">
-                <div class="search-icon"> <span class="item-icon icon-from"> </span></div>
-                <div class="search-inputs">
-                    <label class="text-14 color-grey">From</label>
-                    <input class="search-input dropdown-location" type="text" placeholder=""
-                        value="London City Airport (LCY)" readonly="readonly">
-                    <div class="box-dropdown-location">
-                        <div class="list-locations">
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">London Heathrow Airport (LHR)
-                                    </h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                <div class="search-item search-from">
+                    <div class="search-icon"> <span class="item-icon icon-from"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">From</label>
+                        <input class="search-input dropdown-location" type="text" placeholder=""
+                            value="London City Airport (LCY)" readonly="readonly">
+                        <div class="box-dropdown-location">
+                            <div class="list-locations">
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Heathrow Airport (LHR)
+                                        </h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/building.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">London Tower Hill</h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/building.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Tower Hill</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/train.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">Leyton Train Station</h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/train.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">Leyton Train Station</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">London Luton Airport (LTN)</h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Luton Airport (LTN)</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="search-item search-to">
-                <div class="search-icon"> <span class="item-icon icon-to"> </span></div>
-                <div class="search-inputs">
-                    <label class="text-14 color-grey">To</label>
-                    <input class="search-input dropdown-location" type="text" placeholder=""
-                        value="London City Airport (LCY)" readonly="readonly">
-                    <div class="box-dropdown-location">
-                        <div class="list-locations">
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">London Heathrow Airport (LHR)
-                                    </h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                <div class="search-item search-to">
+                    <div class="search-icon"> <span class="item-icon icon-to"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">To</label>
+                        <input class="search-input dropdown-location" type="text" placeholder=""
+                            value="London City Airport (LCY)" readonly="readonly">
+                        <div class="box-dropdown-location">
+                            <div class="list-locations">
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Heathrow Airport (LHR)
+                                        </h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/building.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">London Tower Hill</h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/building.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Tower Hill</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/train.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">Leyton Train Station</h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/train.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">Leyton Train Station</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="item-location">
-                                <div class="location-icon"> <img
-                                        src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
-                                        alt="luxride"></div>
-                                <div class="location-info">
-                                    <h6 class="text-16-medium color-text title-location">London Luton Airport (LTN)</h6>
-                                    <p class="text-14 color-grey">London, United Kingdom</p>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Luton Airport (LTN)</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="search-item search-button">
+                    <button class="btn btn-search" type="submit"> <img
+                            src="{{url('/public/frontend/')}}/assets/imgs/template/icons/search.svg"
+                            alt="luxride">Search</button>
+                </div>
+          
             </div>
-            <div class="search-item search-button">
-                <button class="btn btn-search" type="submit"> <img
-                        src="{{url('/public/frontend/')}}/assets/imgs/template/icons/search.svg"
-                        alt="luxride">Search</button>
+            <!-- Return Journey Button -->
+            <div class="mx-auto">
+                <button onclick="showReturnForm()" class="text-white returnjourney-btn">Return Journey ?</button>
+            </div>
+            <!-- Return to -->
+            <div id="returnForm" class="box-search-item  travel-from-box d-none">
+                <div class="search-item search-date">
+                    <div class="search-icon"> <span class="item-icon icon-date"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">Date</label>
+                        <input class="search-input datepicker" type="text" placeholder="" value="Thu, Oct 06, 2022">
+                    </div>
+                </div>
+                <div class="search-item search-time">
+                    <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">Time</label>
+                        <input class="search-input timepicker" type="text" placeholder="" value="6 PM  :  15">
+                    </div>
+                </div>
+                <div class="search-item search-from">
+                    <div class="search-icon"> <span class="item-icon icon-from"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">From</label>
+                        <input class="search-input dropdown-location" type="text" placeholder=""
+                            value="London City Airport (LCY)" readonly="readonly">
+                        <div class="box-dropdown-location">
+                            <div class="list-locations">
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Heathrow Airport (LHR)
+                                        </h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/building.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Tower Hill</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/train.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">Leyton Train Station</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Luton Airport (LTN)</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="search-item search-to">
+                    <div class="search-icon"> <span class="item-icon icon-to"> </span></div>
+                    <div class="search-inputs">
+                        <label class="text-14 color-grey">To</label>
+                        <input class="search-input dropdown-location" type="text" placeholder=""
+                            value="London City Airport (LCY)" readonly="readonly">
+                        <div class="box-dropdown-location">
+                            <div class="list-locations">
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Heathrow Airport (LHR)
+                                        </h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/building.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Tower Hill</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/train.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">Leyton Train Station</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                                <div class="item-location">
+                                    <div class="location-icon"> <img
+                                            src="{{url('/public/frontend/')}}/assets/imgs/page/homepage1/plane.png"
+                                            alt="luxride"></div>
+                                    <div class="location-info">
+                                        <h6 class="text-16-medium color-text title-location">London Luton Airport (LTN)</h6>
+                                        <p class="text-14 color-grey">London, United Kingdom</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-item search-button">
+                    <button class="btn btn-search" type="submit"> <img
+                            src="{{url('/public/frontend/')}}/assets/imgs/template/icons/search.svg"
+                            alt="luxride">Search</button>
+                </div>
             </div>
         </div>
     </section>
@@ -1176,3 +1305,13 @@
 </main>
 
 @endsection
+
+
+<script>
+    function showReturnForm() {
+        const returnForm = document.getElementById('returnForm');
+        returnForm.classList.toggle('d-none');
+        returnForm.classList.remove('hidden-div');
+        returnForm.classList.add('visible-div');
+    }
+</script>
